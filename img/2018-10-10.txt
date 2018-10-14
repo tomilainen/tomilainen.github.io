@@ -1,0 +1,161 @@
+<!doctype html>
+
+<html>
+    
+    <head>
+    
+        <meta charset="utf-8" />
+        <meta name="keywords" content="fotboll, spelare, fotbollsspelare, landslag, europa">
+        <meta name="description" content="Vi samlar information om landslagsaktuella svenskar">
+        <title>Landslagsaktuella svenska fotbollsspelare</title>
+        <link rel="stylesheet" type="text/css" href="css/main.css">
+        
+    
+    </head>
+    
+    <body>
+    
+        <div id="logo">
+            <img src="img/logo.JPG" height="100">
+        </div>
+        <div id="rubrik">
+            <h1>Svenskkollen</h1>
+            <h2>Landslagsaktuella svenska fotbollsspelare</h2>
+        </div>
+        <div id="navigering" class="topnav">   
+                    <a href="index.html">Folkets Lag</a>
+                    <a href="">Betyg</a>
+                    <a href="forum.html">Forum</a>
+                    <a href="">Veckans Profil</a>
+                    <a href="kontakt.html">Kontakt</a>
+        </div>
+
+        <div id="plan">
+        </div>
+        
+        <div id="voting">
+            <h3>Röstning</h3>
+                <h4>Anfallare</h4>
+                    <h5>M.Berg</h5>
+                    <h5>S.Andersson</h5>
+                    <h5>M.Ishak</h5>
+                    <h5>I.Kiese-Thelin</h5>
+                    <h5>Wanderson</h5>
+                    <h5>J.Guidetti</h5>
+                    <h5>Nyman</h5>
+                    <h5>J.Asoro</h5>
+                    <h5>Isak</h5>
+                    <h5>...</h5>
+                    <h5>...</h5>
+                    <h5>Annan________</h5>
+                <h4>Mittfältare</h4>
+                    <h5>A.Ekdahl</h5>
+                <h4>Backar</h4>
+                    <h5>A.Granqvist</h5>
+                <h4>Målvakter</h4>
+                    <h5>R.Olsen</h5>
+        </div>
+        
+        <script src="script/main.js")></script>
+    </body>
+
+
+</html>
+
+
+
+
+
+
+body{
+    font-family: helvetica, arial;
+}
+#logo {
+    position: absolute;
+    left: 20px;
+    z-index: 0;
+    top: 15px;
+}
+#rubrik{
+    text-align: center;
+    position: relative;
+}
+#rubrik h1{
+    font-size: 72px;
+    text-decoration: underline;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+#rubrik h2{
+    font-size: 23px;
+    margin-top: 5px;
+}
+#navigering{
+    padding: 10px;
+    padding-top: 10px;
+    width: 100%;
+    left: 0;
+    text-align: center;
+}
+.topnav {
+    height: 3%;
+    position: relative;
+    z-index: 0;
+    border-bottom-style: solid;
+    border-width: 5px;
+    border-top-style: solid;
+    border-color:black;
+}
+.topnav a {
+    padding: 0px 40px 0px 10px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 30px;
+    color: #111;
+    display: inline-block;
+    transition: 0.3s;
+}
+#plan{
+    position: relative;
+    background-image: url(../img/plan.JPG);
+    width: 50%;
+    height: 440px;
+    background-repeat: no-repeat;
+    margin-top: 100px;
+    float: left;
+}
+#plan p{
+    font-size: 26px;
+    color:aliceblue;
+    padding-top: 8px;
+}
+#voting{
+    height: 700px;
+    width: 450px;
+    margin-top: 30px;
+    border-style: double;
+    float:right;
+    text-align: center;
+}
+#voting h3{
+    text-decoration: underline;
+    font-size: 30px;
+    padding: 1px 5px 1px 5px;
+    margin: 0px 5px 5px 5px;
+}
+h4{
+    margin-top:30px;
+    border-bottom-style: solid;
+}
+#voting h5{
+    display: inline-block;
+    border-style: solid;
+    padding: 1px 5px 1px 5px;
+    margin: 0px 5px 5px 5px;
+}
+#voting h5:hover{
+    background-color: darkgray;
+}
+#contact{
+    width: 400px;
+}

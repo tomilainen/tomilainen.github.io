@@ -1,0 +1,95 @@
+body{
+    font-family: helvetica, arial;
+    background-color: lightslategray;
+}
+.wrapper{
+    width: 1200px;
+    height: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 0px auto;
+    background-color: lightsteelblue;
+}
+.banner{
+    width: 100%;
+    margin: 0px;
+}
+#navigering{
+    text-align: center;
+}
+.topnav {
+    padding-top: 5px;
+    background-color:black;
+}
+.topnav a {
+    padding: 0px 40px 0px 10px;
+    font-size: 20px;
+    color: white;
+    display: inline-block;
+}
+#left{
+    width: 50%;
+    height: 700px;
+    float: left;
+}
+#left h3, h4, p{
+    margin: 20px;
+}
+.planbild{
+    margin: 100px 20px;
+    width: 90%;
+    border-radius: 25px;
+}
+#right{
+    width: 50%;
+    text-align: center;
+    float: left;
+}
+#right h3{
+    text-decoration: underline;
+    font-size: 30px;
+    padding: 1px 5px 1px 5px;
+    margin: 30px 5px 5px 5px;
+}
+h4{
+    margin-top:30px;
+    border-style: solid;
+}
+#right h5{
+    background-image: linear-gradient(darkgreen, black);
+    box-shadow: 2px 2px grey;
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px 5px 5px 5px;
+    margin: 0px 5px 5px 5px;
+    font-size: 15px;
+    color: lightgray;
+}
+#right h5:hover{
+    background-image: linear-gradient(green, darkgreen);
+}
+.content::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.sb{
+    margin: 20px auto;
+    width: 200px;
+    border-radius: 20px;
+    box-shadow: 4px 4px grey;
+}
+#contact{
+    width: 400px;
+    margin-left: 30px;
+}
+#footer{
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 15px;
+    font-style: italic;
+    font-size: 12px;
+    margin-bottom: 0px;
+}
+
