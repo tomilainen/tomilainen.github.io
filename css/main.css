@@ -18,7 +18,7 @@ body{
 }
 #banner{
     text-align: center;
-    color: yellow;
+    color: rgb(255, 255, 0);
     font-size: 52px;
     padding-top: 20px;
     width: 100%;
@@ -33,8 +33,7 @@ body{
     width: 223px;
     transform: scale(0.6, 0.6);
     margin-top: -170px;
-    margin-left: 80px;
-
+    margin-left: 40px;
 }
 #navigering{
     text-align: center;
@@ -71,17 +70,23 @@ body{
     text-align: center;
     float: left;
 }
-#right h3{
+.forumBox {
+    width: 80%;
+    height: 80%;
+    background-color: black;
+    border-radius: 10px;
+}
+#right h3 {
     text-decoration: underline;
     font-size: 30px;
     padding: 1px 5px 1px 5px;
     margin: 30px 5px 5px 5px;
 }
-h4{
+h4 {
     margin-top:30px;
     border-style: solid;
 }
-#right h5{
+#right h5 {
     background-image: linear-gradient(darkgreen, black);
     box-shadow: 2px 2px grey;
     display: inline-block;
@@ -92,10 +97,10 @@ h4{
     font-size: 15px;
     color: lightgray;
 }
-#right h5:hover{
+#right h5:hover {
     background-image: linear-gradient(green, darkgreen);
 }
-.content::after{
+.content::after {
     content: "";
     display: table;
     clear: both;
